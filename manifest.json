@@ -1,0 +1,32 @@
+{
+  "background": {
+    "page": "popup.html",
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "images/logo.png",
+      "38": "images/logo.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "Single click JSON Formatter"
+  },
+  "description": "This plugin will help you to converts raw JSON to formatted JSON and vice-versa in same web page.",
+  "icons": {
+    "128": "images/logo.png",
+    "256": "images/logo.png",
+    "16": "images/logo.png",
+    "48": "images/logo.png"
+  },
+  "manifest_version": 2,
+  "name": "Single click JSON Formatter",
+  "short_name": "Single click JSON Formatter",
+  "omnibox": {
+    "keyword": "jf"
+  },
+  "permissions": [
+    "clipboardWrite"
+  ],
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "1.0.3"
+}

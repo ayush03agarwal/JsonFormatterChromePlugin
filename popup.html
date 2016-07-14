@@ -1,0 +1,31 @@
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" media="all" href="styles/json-format.css"/>
+</head>
+<body class="scroller">
+<div class="outerDiv">
+    <div class="innerDiv1">
+        <div>
+            <textarea id="dumpArea" class="jsonTextarea" cols=50 rows=10></textarea>
+        </div>
+        <div>
+            <button id="callPretty" class="greyButton">Format JSON</button>
+            <button id="callRaw" class="greyButton">Raw JSON</button>
+        </div>
+        <div></div>
+        <div>
+            <button id="callCopyMe" class="greenButton">Copy Text</button>
+        </div>
+    </div>
+    <div class="innerDiv2">
+        <div class="infoDiv">
+            <div class="input-groups scroller">
+                <label id="infoArea" class="textFormat">JSON Formatter</label>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="scripts/popup.js"></script>
+<script type="text/javascript" src="scripts/jquery.js"></script>
+</body>
+</html>
