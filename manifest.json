@@ -11,7 +11,7 @@
     "default_popup": "popup.html",
     "default_title": "Single click JSON Formatter"
   },
-  "description": "This plugin will help you to converts raw JSON to formatted JSON and vice-versa in same web page.",
+  "description": "This plugin will help you to converts raw JSON to formatted JSON and vice-versa in same web page and also in new chrome tab.",
   "icons": {
     "128": "images/logo.png",
     "256": "images/logo.png",
