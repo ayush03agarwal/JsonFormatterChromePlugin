@@ -1,6 +1,17 @@
+
 document.getElementById("callPretty").addEventListener("click", prettyPrint);
+document.getElementById("newTab").addEventListener("click", newTab);
 document.getElementById("callRaw").addEventListener("click", rawPrint);
 document.getElementById("callCopyMe").addEventListener("click", copyMe);
+
+JSON._parse = JSON.parse
+JSON.parse = function (json) {
+    try {
+        return JSON._parse(json)
+    } catch(e) {
+        jsonlint.parse(json)
+    }
+}
 
 function prettyPrint() {
     try {
@@ -29,4 +40,9 @@ function copyMe() {
     document.execCommand("copy");
     $("#infoArea").html("Text Copied");
     $temp.remove();
+}
+
+function newTab() {
+     chrome.tabs.create({url: chrome.extension.getURL('popup.html#window')});
+     return false;
 }

@@ -61,7 +61,7 @@
 	font-family:Arial;
 	font-size:15px;
 	font-weight:bold;
-	padding:4px 125px;
+	padding:4px 110px;
 	text-decoration:none;
 	margin-left:5px;
 	margin-top:2px;
@@ -79,6 +79,14 @@
 	background-color:#5cbf2a;
 }
 
+.newTab {
+	cursor:pointer;
+	background-repeat:no-repeat !important;
+	background-position-x:3px !important;
+	padding:17px 12px 4px;
+	border:none;
+}
+
 .myButton:active {
 	position:relative;
 	top:1px;
@@ -86,7 +94,7 @@
 
 .jsonTextarea {
 	width: 313px;
-    height: 114px;
+    height: 124px;
     padding: 3px;
     margin: 5px;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=26)";
@@ -102,7 +110,7 @@
     font-weight: 900;
     font-family: 'Lucida Console', Monaco, monospace;
     text-align: left;
-    line-height: 1.15em;
+    line-height: 1.3em;
 }
 
 .textFormat {
@@ -121,40 +129,29 @@
     line-height: 1.15em;
 }
 
-.innerDiv1 {
-	background-color: rgb(246, 246, 246);
+.outerDiv {
 	border-width: 4px;
-	width: 329px;
-    height: 183px;
+	position: relative;
+	width: 330px;
+    height: 246px;
     border: 4px rgb(38, 38, 25);
     margin-top:-9px;
     margin-left:-9px;
     margin-right:-7px;
 }
 
-.innerDiv2 {
-	background-color:#e9e9e9;
-	border-width: 4px;
-	width: 329px;
-    height: 40px;
-    border: 4px rgb(38, 38, 25);
-    margin-left:-8px;
-    margin-top:-3px;
-}
-
 .infoDiv {
-	margin-left:5px;
-	padding-top:6px;
-}
-
-.outerDiv {
-	width: 313px;
-	height: 206px;
+	margin-left:6px;
 }
 
 input:focus,
 select:focus,
 textarea:focus,
+
 button:focus {
     outline: none;
+}
+
+.backgroundColor{
+	background-color: #e9e9e9;
 }
