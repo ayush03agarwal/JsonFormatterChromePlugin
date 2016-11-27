@@ -11,7 +11,7 @@
     "default_popup": "popup.html",
     "default_title": "In-place JSON Formatter"
   },
-  "description": "This plugin gives you popup on your chrome browser which can be used to validate and format your JSON. It also gives to functionality to open the extension in new tab as per need. The extension window is resizable. It can also be used to remove new line and extra space from any type of text.",
+  "description": "This plugin gives you popup on your chrome browser which can be used to validate and format your JSON.",
   "icons": {
     "128": "images/logo.png",
     "256": "images/logo.png",
