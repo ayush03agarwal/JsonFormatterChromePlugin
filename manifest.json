@@ -28,5 +28,5 @@
     "clipboardWrite" , "tabs"
   ],
   "update_url": "https://clients2.google.com/service/update2/crx",
-  "version": "1.0.6"
+  "version": "1.0.7"
 }

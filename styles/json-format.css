@@ -173,6 +173,10 @@
 input:focus,
 select:focus,
 
+textarea:focus {
+    outline: none;
+}
+
 button:focus {
     outline: none;
 }
