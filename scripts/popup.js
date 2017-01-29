@@ -3,6 +3,7 @@ document.getElementById("callPretty").addEventListener("click", prettyPrint);
 document.getElementById("newTab").addEventListener("click", newTab);
 document.getElementById("callRaw").addEventListener("click", rawPrint);
 document.getElementById("callCopyMe").addEventListener("click", copyMe);
+window.onload = function(){addLinesInTextarea();};
 
 JSON._parse = JSON.parse
 JSON.parse = function (json) {
@@ -45,4 +46,8 @@ function copyMe() {
 function newTab() {
      chrome.tabs.create({url: chrome.extension.getURL('popup.html#window')});
      return false;
+}
+
+function addLinesInTextarea() {
+    $(".lined").linedtextarea();
 }

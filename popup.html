@@ -1,11 +1,12 @@
 <html>
 <head>
     <link type="text/css" rel="stylesheet" media="all" href="styles/json-format.css"/>
+    <link href="styles/jquery-linedtextarea.css" type="text/css" rel="stylesheet"/>
 </head>
 <body class="backgroundColor">
 <div class="outerDiv">
     <div>
-        <textarea id="dumpArea" class="jsonTextarea" cols=50 rows=10></textarea>
+        <textarea id="dumpArea" class="lined" rows="10" cols="60"></textarea>
     </div>
     <div>
         <button id="callPretty" class="greyButton">Format JSON</button>
@@ -23,5 +24,6 @@
 <script type="text/javascript" src="scripts/popup.js"></script>
 <script type="text/javascript" src="scripts/jquery.js"></script>
 <script type="text/javascript" src="scripts/jsonlint.js"></script>
+<script type="text/javascript" src="scripts/jquery-linedtextarea.js"></script>
 </body>
 </html>
