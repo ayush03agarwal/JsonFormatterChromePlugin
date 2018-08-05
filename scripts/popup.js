@@ -44,7 +44,7 @@ function copyMe() {
 }
 
 function newTab() {
-     chrome.tabs.create({url: chrome.extension.getURL('popup.html#window')});
+     chrome.tabs.create({url: chrome.extension.getURL('newTab.html#window')});
      return false;
 }
 
